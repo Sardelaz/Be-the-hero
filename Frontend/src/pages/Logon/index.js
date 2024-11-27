@@ -31,6 +31,7 @@ export default function Logon() {
 
     return (
         <div className="logon-container">
+            
             {/* Formulário de login */}
             <section className="form">
                 <img src={logoImg} alt="Be The Hero" />

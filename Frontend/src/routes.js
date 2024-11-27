@@ -14,6 +14,8 @@ export default function RoutesConfig() {
                 <Route path="/register" element={<Register />} />
                 
                 <Route path="/profile" element={<Profile />} />
+                <Route path="/profile/:ongId" element={<Profile />} />
+                
                 <Route path="/incidents/new" element={<NewIncident />} />
             </Routes>
         </BrowserRouter>
